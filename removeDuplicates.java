@@ -11,6 +11,6 @@ class Solution {
             set.add(nums[i]);
         }
         nums = set.stream().mapToInt(Integer::intValue).toArray();
-        return set.size();
+        return nums.length;
     }
 }
